@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script defer src="../js/validation.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Registration</h1>
+        <nav class="nav-bar">
+            <ul>
+                <a class="nav-items" href="login.html">Login</a></li>
+                <a class="nav-items" href="registration.html">Registration</a></li>
+                <a class="nav-items" href="postimage.html">Post Image</a></li>
+                <a class="nav-items" href="viewpost.html">View Post</a></li>
+                <a class="nav-items" href="Index.html">Index</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form class="form" >
+        <label class="userpass" for="username">Username</label>
+        <input type="text" name="username"
+        id="username" placeholder="Username"><br><br>
+
+        <label class="userpass" for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email"><br><br>
+
+        <label class="userpass" for="password">Password</label>
+        <input type="password" name="password"
+        id="password" placeholder="Password"><br><br>
+       
+        <label class="userpass" for="password">Confirm Password</label>
+        <input type="password" name="confirm password" id="confirmpassword" placeholder="Confirm Password"><br><br>
+
+        
+        <label class="userpass" for="age">Accept if you are 13+ years of age?</label>
+        <input type="checkbox" name="age" id="age" required><br><br>
+
+        <label class="userpass" for="TOS&PRIVACY">Accept <a href="">TOS</a> and <a href="">Privacy</a> rules</label>
+        <input type="checkbox" name="PRIVACY" id="PRIVACY" required><br><br>
+
+        <input type="submit" value="Submit">
+
+        
+    </form>
+    <br><footer class="copyright">Hruday Prathipati &copy; 2022</footer>
+</body>
+</html>
